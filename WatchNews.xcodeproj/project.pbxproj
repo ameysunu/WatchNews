@@ -17,6 +17,8 @@
 		9DCD223E26714F56005C509A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD223D26714F56005C509A /* ComplicationController.swift */; };
 		9DCD224026714F57005C509A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD223F26714F57005C509A /* Assets.xcassets */; };
 		9DCD224326714F57005C509A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD224226714F57005C509A /* Preview Assets.xcassets */; };
+		9DFAC1EB26716BE800FCAAA7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAC1EA26716BE800FCAAA7 /* NetworkManager.swift */; };
+		9DFAC1EE26716C3500FCAAA7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAC1ED26716C3500FCAAA7 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		9DCD224226714F57005C509A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DCD224426714F57005C509A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DCD224526714F57005C509A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9DFAC1EA26716BE800FCAAA7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9DFAC1ED26716C3500FCAAA7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 				9DCD224426714F57005C509A /* Info.plist */,
 				9DCD224526714F57005C509A /* PushNotificationPayload.apns */,
 				9DCD224126714F57005C509A /* Preview Content */,
+				9DFAC1EC26716BEE00FCAAA7 /* Models */,
 			);
 			path = "WatchNews WatchKit Extension";
 			sourceTree = "<group>";
@@ -139,6 +144,15 @@
 				9DCD224226714F57005C509A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DFAC1EC26716BEE00FCAAA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DFAC1EA26716BE800FCAAA7 /* NetworkManager.swift */,
+				9DFAC1ED26716C3500FCAAA7 /* Data.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DFAC1EE26716C3500FCAAA7 /* Data.swift in Sources */,
+				9DFAC1EB26716BE800FCAAA7 /* NetworkManager.swift in Sources */,
 				9DCD223A26714F56005C509A /* NotificationController.swift in Sources */,
 				9DCD223826714F56005C509A /* ContentView.swift in Sources */,
 				9DCD223E26714F56005C509A /* ComplicationController.swift in Sources */,

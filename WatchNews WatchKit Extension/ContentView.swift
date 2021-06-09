@@ -13,10 +13,19 @@ struct ContentView: View {
             Text("WatchNews")
                 .font(.title2)
                 .fontWeight(.thin)
-            
             Text("Live News and updates, right on your watch.")
                 .font(.subheadline)
                 .fontWeight(.thin)
+            Spacer()
+            Button(action: {
+                
+            }){
+                HStack {
+                    Text("Get Started")
+                    Image(systemName: "arrow.right")
+                }
+            }
+            
         }
     }
 }
