@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D16B72A2672ABBC00892619 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D16B7292672ABBC00892619 /* NewsView.swift */; };
 		9DCD222526714F55005C509A /* WatchNews WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9DCD222426714F55005C509A /* WatchNews WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9DCD222A26714F56005C509A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD222926714F56005C509A /* Assets.xcassets */; };
 		9DCD223126714F56005C509A /* WatchNews WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9DCD223026714F56005C509A /* WatchNews WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D16B7292672ABBC00892619 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		9DCD222026714F55005C509A /* WatchNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCD222426714F55005C509A /* WatchNews WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchNews WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCD222926714F56005C509A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D16B7282672ABAF00892619 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DCD223726714F56005C509A /* ContentView.swift */,
+				9D16B7292672ABBC00892619 /* NewsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9DCD221926714F55005C509A = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				9DCD223526714F56005C509A /* WatchNewsApp.swift */,
-				9DCD223726714F56005C509A /* ContentView.swift */,
+				9D16B7282672ABAF00892619 /* Views */,
 				9DCD223926714F56005C509A /* NotificationController.swift */,
 				9DCD223B26714F56005C509A /* NotificationView.swift */,
 				9DCD223D26714F56005C509A /* ComplicationController.swift */,
@@ -283,6 +294,7 @@
 			files = (
 				9DFAC1EE26716C3500FCAAA7 /* Data.swift in Sources */,
 				9DFAC1EB26716BE800FCAAA7 /* NetworkManager.swift in Sources */,
+				9D16B72A2672ABBC00892619 /* NewsView.swift in Sources */,
 				9DCD223A26714F56005C509A /* NotificationController.swift in Sources */,
 				9DCD223826714F56005C509A /* ContentView.swift in Sources */,
 				9DCD223E26714F56005C509A /* ComplicationController.swift in Sources */,
