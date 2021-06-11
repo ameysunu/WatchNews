@@ -8,24 +8,30 @@
 import SwiftUI
 
 struct DetailView: View {
+    
     let details = Display()
+    
     var body: some View {
-        NavigationView{
+        
+        let title: String = details.title
+        let tags: String = details.tags
+        let author: String = details.author
+        let url: String = details.url
+        
         VStack(alignment: .leading){
-            Text(details.title)
+            Text(title)
                 .font(.title)
-            Text("Tags: \(details.tags)")
+            Text("Tags: \(tags)")
                 .font(.body)
-            Text("By: \(details.author)")
+            Text("By: \(author)")
                 .font(.subheadline)
             Spacer()
             Button(action: {
-                print(details.url)
+                print(url)
             }){
                 Text("Read now")
             }
             
-        }
         }
         
     }

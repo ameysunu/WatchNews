@@ -13,7 +13,7 @@ struct NewsView: View {
     
     var body: some View {
         List(networkManager.posts){ post in
-            NavigationLink(destination: DetailView()){
+            NavigationLink(destination: ListView()){
             HStack{
                 Text(post.title)
             }
