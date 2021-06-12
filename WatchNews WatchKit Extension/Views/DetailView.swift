@@ -11,12 +11,13 @@ struct DetailView: View {
     
     let details = Display()
     
+    let title: String
+    let tags: String
+    let author: String
+    let url: String
+    
+    
     var body: some View {
-        
-        let title: String = details.title
-        let tags: String = details.tags
-        let author: String = details.author
-        let url: String = details.url
         
         VStack(alignment: .leading){
             Text(title)
@@ -39,6 +40,6 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
+        DetailView(title: "Sample", tags: "sample", author: "Jane Doe", url: "google.com")
     }
 }
