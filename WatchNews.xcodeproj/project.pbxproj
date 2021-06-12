@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25176195CC0AF761E086BD5F /* Pods_WatchNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD8FA9B108CFBBAF445BD55 /* Pods_WatchNews.framework */; };
+		82AAD70EBAC1B2C7E4C6C88B /* Pods_WatchNews_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2197CBFCCD8FBFC723E224B4 /* Pods_WatchNews_WatchKit_App.framework */; };
 		9D16B72A2672ABBC00892619 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D16B7292672ABBC00892619 /* NewsView.swift */; };
 		9D542A0726735BB000FD9804 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D542A0626735BB000FD9804 /* DetailView.swift */; };
 		9D542A0B2673784B00FD9804 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D542A0A2673784B00FD9804 /* ListView.swift */; };
@@ -23,6 +25,7 @@
 		9DD2B77F2673FE3400473C92 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2B77E2673FE3400473C92 /* Model.swift */; };
 		9DFAC1EB26716BE800FCAAA7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAC1EA26716BE800FCAAA7 /* NetworkManager.swift */; };
 		9DFAC1EE26716C3500FCAAA7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAC1ED26716C3500FCAAA7 /* Data.swift */; };
+		AB05D066CFABA356BC4734E0 /* Pods_WatchNews_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E1D1DDF6D4974A2D7E8F37 /* Pods_WatchNews_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04EAB7E92B2CB109E7DAA32F /* Pods-WatchNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchNews.debug.xcconfig"; path = "Target Support Files/Pods-WatchNews/Pods-WatchNews.debug.xcconfig"; sourceTree = "<group>"; };
+		088B4F8207D4FAC371A9A249 /* Pods-WatchNews WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchNews WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-WatchNews WatchKit App/Pods-WatchNews WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		2197CBFCCD8FBFC723E224B4 /* Pods_WatchNews_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchNews_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E1D1DDF6D4974A2D7E8F37 /* Pods_WatchNews_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchNews_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4166A2C378932A6FA3C5A617 /* Pods-WatchNews WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchNews WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-WatchNews WatchKit App/Pods-WatchNews WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5FC2910AF712760FBCCFA4 /* Pods-WatchNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchNews.release.xcconfig"; path = "Target Support Files/Pods-WatchNews/Pods-WatchNews.release.xcconfig"; sourceTree = "<group>"; };
+		7D7EB0C9DA3AE2599E504CD8 /* Pods-WatchNews WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchNews WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-WatchNews WatchKit Extension/Pods-WatchNews WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		9D16B7292672ABBC00892619 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		9D542A0626735BB000FD9804 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		9D542A0A2673784B00FD9804 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -88,13 +98,32 @@
 		9DD2B77E2673FE3400473C92 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		9DFAC1EA26716BE800FCAAA7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9DFAC1ED26716C3500FCAAA7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BF52B10CFFFE2461B7131B02 /* Pods-WatchNews WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchNews WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-WatchNews WatchKit Extension/Pods-WatchNews WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		EAD8FA9B108CFBBAF445BD55 /* Pods_WatchNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		74E3039157BD0F03DA6D910F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AAD70EBAC1B2C7E4C6C88B /* Pods_WatchNews_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DCD222D26714F56005C509A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB05D066CFABA356BC4734E0 /* Pods_WatchNews_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A3386852EB904DB65E05BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25176195CC0AF761E086BD5F /* Pods_WatchNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +147,8 @@
 				9DCD222826714F55005C509A /* WatchNews WatchKit App */,
 				9DCD223426714F56005C509A /* WatchNews WatchKit Extension */,
 				9DCD222126714F55005C509A /* Products */,
+				D1DAC1FF08DB0511266A1033 /* Pods */,
+				CF77A11E3D672D6F75E45A47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +206,30 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		CF77A11E3D672D6F75E45A47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAD8FA9B108CFBBAF445BD55 /* Pods_WatchNews.framework */,
+				2197CBFCCD8FBFC723E224B4 /* Pods_WatchNews_WatchKit_App.framework */,
+				31E1D1DDF6D4974A2D7E8F37 /* Pods_WatchNews_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1DAC1FF08DB0511266A1033 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04EAB7E92B2CB109E7DAA32F /* Pods-WatchNews.debug.xcconfig */,
+				6E5FC2910AF712760FBCCFA4 /* Pods-WatchNews.release.xcconfig */,
+				4166A2C378932A6FA3C5A617 /* Pods-WatchNews WatchKit App.debug.xcconfig */,
+				088B4F8207D4FAC371A9A249 /* Pods-WatchNews WatchKit App.release.xcconfig */,
+				BF52B10CFFFE2461B7131B02 /* Pods-WatchNews WatchKit Extension.debug.xcconfig */,
+				7D7EB0C9DA3AE2599E504CD8 /* Pods-WatchNews WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,8 +237,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DCD225026714F57005C509A /* Build configuration list for PBXNativeTarget "WatchNews" */;
 			buildPhases = (
+				3D559020297B343C672A9FEC /* [CP] Check Pods Manifest.lock */,
 				9DCD221E26714F55005C509A /* Resources */,
 				9DCD224F26714F57005C509A /* Embed Watch Content */,
+				F1A3386852EB904DB65E05BE /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,8 +256,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DCD224C26714F57005C509A /* Build configuration list for PBXNativeTarget "WatchNews WatchKit App" */;
 			buildPhases = (
+				1F9BF56BE0D453C1DFB66AE7 /* [CP] Check Pods Manifest.lock */,
 				9DCD222226714F55005C509A /* Resources */,
 				9DCD224B26714F57005C509A /* Embed App Extensions */,
+				74E3039157BD0F03DA6D910F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DCD224826714F57005C509A /* Build configuration list for PBXNativeTarget "WatchNews WatchKit Extension" */;
 			buildPhases = (
+				32E9DF2D5CCA7B4B471248F0 /* [CP] Check Pods Manifest.lock */,
 				9DCD222C26714F56005C509A /* Sources */,
 				9DCD222D26714F56005C509A /* Frameworks */,
 				9DCD222E26714F56005C509A /* Resources */,
@@ -295,6 +355,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F9BF56BE0D453C1DFB66AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchNews WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32E9DF2D5CCA7B4B471248F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchNews WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D559020297B343C672A9FEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DCD222C26714F56005C509A /* Sources */ = {
@@ -447,6 +576,7 @@
 		};
 		9DCD224926714F57005C509A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF52B10CFFFE2461B7131B02 /* Pods-WatchNews WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +601,7 @@
 		};
 		9DCD224A26714F57005C509A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7EB0C9DA3AE2599E504CD8 /* Pods-WatchNews WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +626,7 @@
 		};
 		9DCD224D26714F57005C509A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4166A2C378932A6FA3C5A617 /* Pods-WatchNews WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -515,6 +647,7 @@
 		};
 		9DCD224E26714F57005C509A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088B4F8207D4FAC371A9A249 /* Pods-WatchNews WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -535,6 +668,7 @@
 		};
 		9DCD225126714F57005C509A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EAB7E92B2CB109E7DAA32F /* Pods-WatchNews.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -548,6 +682,7 @@
 		};
 		9DCD225226714F57005C509A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5FC2910AF712760FBCCFA4 /* Pods-WatchNews.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
