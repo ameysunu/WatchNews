@@ -21,11 +21,14 @@ struct DetailView: View {
         
         VStack(alignment: .leading){
             Text(title)
-                .font(.title)
+                .font(.system(size: 17))
+                .foregroundColor(Color.gray)
+                .padding()
             Text("Tags: \(tags)")
                 .font(.body)
             Text("By: \(author)")
                 .font(.subheadline)
+                .padding(.bottom)
             Spacer()
             Button(action: {
                 print(url)
