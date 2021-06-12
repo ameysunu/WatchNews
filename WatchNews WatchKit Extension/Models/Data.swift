@@ -19,4 +19,6 @@ struct Post: Decodable, Identifiable {
     let points: Int
     let title: String
     let url: String?
+    let author: String
+    let _tags: [String]
 }
