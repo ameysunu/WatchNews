@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct DetailView: View {
     
@@ -31,10 +32,11 @@ struct DetailView: View {
                 .padding(.bottom)
             Spacer()
             Button(action: {
-                print(url)
+                UIPasteboard.general.string = url
             }){
                 Text("Read now")
             }
+//            Link("Read now", destination: URL(string: url)!)
             
         }
         
