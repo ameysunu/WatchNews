@@ -31,12 +31,12 @@ struct DetailView: View {
                 .font(.subheadline)
                 .padding(.bottom)
             Spacer()
-            Button(action: {
-                UIPasteboard.general.string = url
-            }){
-                Text("Read now")
-            }
-//            Link("Read now", destination: URL(string: url)!)
+//            Button(action: {
+//                UIPasteboard.general.string = url
+//            }){
+//                Text("Read now")
+//            }
+            Link("Read now", destination: URL(string: url)!)
             
         }
         
